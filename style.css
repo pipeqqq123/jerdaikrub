@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.ไร-button {
+  background-color: rgb(190, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: opacity 0.15s;
+}
+
+.ไร-button:hover {
+  opacity: 0.7;
+}
+.ไร-button:active {
+  opacity: 0.4;
+}
+
+.ครับ-button {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.ครับ-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.ครับ-button:active {
+  opacity: 0.7;
+}
+
+.สัส-button {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 70px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: box-shadow 0.15s;
+}
+.สัส-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.สัส-button:active {
+  opacity: 0.7;
+}
+
+.req-button {
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.req-button:hover {
+  opacity: 0.7;
+}
+.req-button:active {
+  opacity: 0.4;
+}
+
+.add-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 36px;
+  width: 200px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.add-button:hover {
+  background-color: rgb(233, 197, 19);
+}
+.add-button:active {
+  opacity: 0.7;
+}
+
+.sign-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 36px;
+  width: 100px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.sign-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.sign-button:active {
+  opacity: 0.7;
+}
+
+.get-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  height: 36px;
+  width: 100px;
+  font-weight: bold;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.get-button:hover {
+  background-color: rgb(95, 65, 139);
+}
+.get-button:active {
+  opacity: 0.15;
+}
+
+.download-button {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 36px;
+  width: 100px;
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: small;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.download-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.download-button:active {
+  opacity: 0.7;
+}
+.apply-button {
+  background: rgb(10, 102, 194);
+  color: white;
+  height: 42px;
+  border: none;
+  border-radius: 20px;
+  width: 230px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.apply-button:hover {
+  background-color: rgb(6, 58, 110);
+}
+.apply-button:active {
+  opacity: 0.7;
+}
+.save-button {
+  background-color: white;
+  color: rgb(41, 118, 211);
+  height: 42px;
+  width: 90px;
+  font-weight: bold;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.save-button:hover {
+  background-color: rgb(207, 207, 207);
+  border-width: 2px;
+}
+.youtube {
+  margin-left: 10px;
+}
+.Nike {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.cost {
+  margin-left: 10px;
+  font-size: 15px;
+  color: rgb(0, 118, 0);
+}
+.shipp {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.addto-button {
+  margin-left: 8px;
+  background-color: rgb(255, 216, 20);
+  height: 30px;
+  width: 130px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.addto-button:hover {
+  background-color: rgb(196, 165, 14);
+}
+.addto-button:active {
+  opacity: 0.7;
+}
+.buy-button {
+  margin-left: 12px;
+  background-color: rgb(255, 164, 28);
+  height: 30px;
+  width: 130px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.buy-button:hover {
+  background-color: rgb(218, 140, 24);
+}
+.buy-button:active {
+  opacity: 0.7;
+}
