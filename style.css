@@ -334,9 +334,12 @@
   padding-bottom: 8px;
   border: none;
   cursor: pointer;
-  transition: padding-left 0.15s, padding-right 0.15s;
+  transition: padding-left 0.15s, padding-right 0.15s, opacity 0.15s;
 }
 .stretch1-button:hover {
   padding-left: 30px;
   padding-right: 30px;
+}
+.stretch1-button:active {
+  opacity: 0.7;
 }
