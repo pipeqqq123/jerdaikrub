@@ -4,16 +4,19 @@
 }
 
 .ไร-button {
-  background-color: rgb(190, 0, 0);
+  background-color: rgb(204, 0, 0);
   color: white;
   border: none;
-  height: 36px;
-  width: 105px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 2px;
   cursor: pointer;
   margin-left: 10px;
   margin-top: 10px;
   transition: opacity 0.15s;
+  vertical-align: top;
 }
 
 .ไร-button:hover {
@@ -26,20 +29,23 @@
 .ครับ-button {
   background-color: rgb(255, 255, 255);
   color: black;
-  border-color: rgb(41, 118, 211);
+  border-color: rgb(66 103 178);
   border-style: solid;
   border-width: 1px;
-  color: rgb(41, 118, 211);
-  height: 36px;
-  width: 62px;
-  border-radius: 2px;
+  color: rgb(66 103 178);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 4px;
   cursor: pointer;
   margin-left: 10px;
   transition: background-color 0.15s, color 0.15s;
+  vertical-align: top;
 }
 
 .ครับ-button:hover {
-  background-color: rgb(41, 118, 211);
+  background-color: rgb(66 103 178);
   color: white;
 }
 
@@ -48,17 +54,20 @@
 }
 
 .สัส-button {
-  background-color: rgb(2, 158, 255);
+  background-color: rgb(0, 172, 238);
   color: white;
   border: none;
-  height: 36px;
-  width: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 18px;
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
   margin-left: 10px;
   transition: box-shadow 0.15s;
+  vertical-align: top;
 }
 .สัส-button:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
@@ -86,8 +95,10 @@
 .add-button {
   background-color: rgb(255, 216, 20);
   color: black;
-  height: 36px;
-  width: 200px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: 600;
   border: none;
   border-radius: 20px;
@@ -247,4 +258,85 @@
 }
 .buy-button:active {
   opacity: 0.7;
+}
+.back-button {
+  margin-left: 10px;
+  margin-right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+.next-button {
+  margin-left: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+.search {
+  margin-left: 4px;
+}
+
+.stretch-button {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  cursor: pointer;
+  transition: padding-left 0.15s, padding-right 0.15s, padding-top 0.15s,
+    paddling-bottom 0.15s, opacity 0.15s;
+}
+
+.stretch-button:hover {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.stretch-button:active {
+  opacity: 0.7;
+}
+.shadow-button {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: margin-left 0.15s, margin-top 0.15s, box-shadow 0.15s;
+}
+.shadow-button:active {
+  margin-top: 5px;
+  margin-left: 15px;
+  box-shadow: none;
+}
+.stretch1-button {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  cursor: pointer;
+  transition: padding-left 0.15s, padding-right 0.15s;
+}
+.stretch1-button:hover {
+  padding-left: 30px;
+  padding-right: 30px;
 }
