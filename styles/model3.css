@@ -1,0 +1,14 @@
+.model3-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+}
+.model3-description {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.model3-touch {
+  text-decoration: underline;
+}
