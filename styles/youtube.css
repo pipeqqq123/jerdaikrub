@@ -104,7 +104,7 @@
 .twitter-text {
   border: none;
   vertical-align: 100%;
-  width: 200px;
+  width: 310px;
   height: 20px;
   font-size: 16px;
 }
@@ -131,26 +131,7 @@
 .tweet-button:active {
   opacity: 0.7;
 }
-.search-bar1 {
-  font-size: 16px;
-  display: block;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 4px;
-}
-.youtube-title {
-  width: 300px;
-  font-weight: bold;
-}
-.youtube-author {
-  display: block;
-}
-.youtube-stat {
-  display: block;
-  margin-bottom: 50px;
-}
+
 .text-name {
   display: block;
   margin-bottom: 5px;
@@ -173,27 +154,7 @@
   vertical-align: 100%;
   cursor: pointer;
 }
-.google-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-  margin-bottom: 10px;
-}
-.search-google1 {
-  border: none;
-  font-size: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 500px;
-  height: 40px;
-  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
-  margin-bottom: 100px;
-  border-radius: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+
 .first-name {
   font-size: 16px;
   padding-left: 16px;
@@ -308,8 +269,8 @@
   padding-bottom: 15px;
   font-size: 16px;
   margin-right: 20px;
-  transition: background-color 0.15s;
-  opacity: 0.15s;
+  margin-bottom: 100px;
+  transition: background-color 0.15s, opacity 0.15s;
 }
 .schedule-button:hover {
   background-color: rgb(224, 224, 224);
@@ -317,4 +278,207 @@
 }
 .schedule-button:active {
   opacity: 0.7;
+}
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+  margin-bottom: 100px;
+}
+.search-bar1 {
+  font-size: 16px;
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+}
+.youtube-thumbnail {
+  width: 300px;
+}
+.youtube-title {
+  width: 300px;
+  font-weight: bold;
+}
+.youtube-author {
+  display: block;
+}
+.youtube-stat {
+  display: block;
+  margin-bottom: 50px;
+}
+.red {
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+.green {
+  width: 90px;
+  height: 90px;
+  background-color: green;
+  border-radius: 50%;
+  margin-bottom: 100px;
+}
+.satisfy {
+  font-weight: bold;
+}
+.yes-button {
+  cursor: pointer;
+}
+.no-button {
+  cursor: pointer;
+}
+.service {
+  margin-left: 30px;
+  margin-bottom: 100px;
+  border: 1px;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+  border-color: grey;
+}
+.install {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+.add {
+  color: rgb(170, 170, 170);
+}
+.youtube-music {
+  background-color: rgb(37, 37, 37);
+  margin-left: 20px;
+  width: 380px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+}
+.twitter-tweet {
+  margin-left: 40px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.15);
+  padding-top: 16px;
+  padding-left: 15px;
+  padding-bottom: 16px;
+  padding-right: 1px;
+  width: 500px;
+  height: 50px;
+  border-radius: 8px;
+}
+.picture {
+  width: 240px;
+  height: 240px;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+  margin-top: 8px;
+}
+.friend {
+  font-size: 15px;
+  margin-left: 10px;
+  color: grey;
+  margin-top: 4px;
+}
+.add-friend {
+  background-color: rgb(43, 117, 228);
+  color: white;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.add-friend:hover {
+  background-color: rgb(32, 84, 163);
+}
+.add-friend:active {
+  opacity: 0.7;
+}
+.fb-profile {
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.15);
+  margin-left: 16px;
+  width: 240px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+.google-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.google-logo:active {
+  opacity: 0.7;
+}
+.search-google1 {
+  border: none;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 500px;
+  height: 40px;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.google-search {
+  background-color: rgb(235, 235, 235);
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.google-search:hover {
+  background-color: rgb(214, 214, 214);
+}
+.google-search:active {
+  opacity: 0.7;
+}
+.lucky {
+  background-color: rgb(235, 235, 235);
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.lucky:hover {
+  background-color: rgb(214, 214, 214);
+}
+.lucky:active {
+  opacity: 0.7;
+}
+.feeling {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px;
 }
